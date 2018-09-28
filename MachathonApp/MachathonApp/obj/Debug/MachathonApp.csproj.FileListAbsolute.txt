@@ -1,0 +1,10 @@
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\App.g.i.cs
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\App.g.cs
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\MainPage.g.i.cs
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\MainPage.g.cs
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\App.xaml
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\MainPage.xaml
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\App.xbf
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\MainPage.xbf
+C:\Users\sugh\documents\visual studio 2013\Projects\MachathonApp\MachathonApp\obj\Debug\XamlSaveStateFile.xml

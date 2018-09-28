@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\users\sugh\documents\visual studio 2013\projects\machathonapp\packages\microsoft.applicationinsights.runtimetelemetry.0.14.0-build20632\lib\portable-win81+wpa81\microsoft.applicationinsights.extensibility.runtimetelemetry.winmd" HashGuid="9ff0b6e6-943c-898e-8ccb-41d423e7a41c" />
+    <ReferenceAssembly PathName="c:\users\sugh\documents\visual studio 2013\projects\machathonapp\packages\microsoft.applicationinsights.windowsstore.0.14.0-build20632\lib\win81\microsoft.applicationinsights.extensibility.windows.winmd" HashGuid="5e031279-2140-f478-b281-e0fac35c58b1" />
+    <ReferenceAssembly PathName="c:\users\sugh\documents\visual studio 2013\projects\machathonapp\packages\microsoft.applicationinsights.0.14.0-build20632\lib\portable-win81+wpa81\microsoft.applicationinsights.winmd" HashGuid="dd9ac78a-d702-71e2-45f8-aafdfea3cb54" />
+    <ReferenceAssembly PathName="c:\users\sugh\documents\visual studio 2013\projects\machathonapp\packages\microsoft.diagnostics.tracing.eventsource.redist.1.1.16-beta\lib\net45\microsoft.diagnostics.tracing.eventsource.dll" HashGuid="80297b0f-1235-0f77-6fca-4fb05d72d4c7" />
+    <ReferenceAssembly PathName="c:\users\sugh\documents\visual studio 2013\projects\machathonapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\sugh\downloads\system.net.http.formatting.dll" HashGuid="7a0d74c1-af64-09a3-f446-f5426e931e8e" />
+    <ReferenceAssembly PathName="c:\users\sugh\documents\visual studio 2013\projects\machathonapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,109 @@
+﻿<Page
+    x:Class="MachathonApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MachathonApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <ComboBox Name="serviceType" Grid.Column="0" SelectedIndex="0" Margin="20, 20, 20, 20" Grid.ColumnSpan="1">
+                <ComboBoxItem Name="serviceTypeDefault">Select Type of Service</ComboBoxItem>
+                <ComboBoxItem Name="storage">Data Storage</ComboBoxItem>
+                <ComboBoxItem Name="mt">Middle tier</ComboBoxItem>
+            </ComboBox>
+            <Button x:ConnectionId='3' Grid.Column="1" Height="50"                     >Submit</Button>
+        </Grid>
+
+
+        <Grid Grid.Row="2" Grid.RowSpan="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Name="First" Grid.Row="0"></TextBlock>
+                <TextBlock Name="Second" Grid.Row="1"></TextBlock>
+                <TextBlock Name="Third" Grid.Row="0"></TextBlock>
+                <TextBlock Name="Fourth" Grid.Row="1"></TextBlock>
+            </Grid>
+            <Grid Name="DBGrid" Visibility="Visible" Grid.Column="0" Background="#FF636363">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <ComboBox Name="geo1" SelectedIndex="0" Grid.Row="0" Margin="20">
+                    <ComboBoxItem Name="geo1Default">Geo Replication</ComboBoxItem>
+                    <ComboBoxItem Name="Yes">Yes</ComboBoxItem>
+                    <ComboBoxItem Name="No">No</ComboBoxItem>
+                </ComboBox>
+                <ComboBox Name="dataType" SelectedIndex="0" Grid.Row="1" Margin="20">
+                    <ComboBoxItem Name="dataTypeDefault">Data Type</ComboBoxItem>
+                    <ComboBoxItem Name="structured">Structured</ComboBoxItem>
+                    <ComboBoxItem Name="unStructured">Unstructured</ComboBoxItem>
+                </ComboBox>
+                <ComboBox Name="queryCapability" SelectedIndex="0" Grid.Row="2" Margin="20">
+                    <ComboBoxItem Name="queryDefault">Query Capability</ComboBoxItem>
+                    <ComboBoxItem Name="flexible">Flexible</ComboBoxItem>
+                    <ComboBoxItem Name="medium">Medium</ComboBoxItem>
+                    <ComboBoxItem Name="rigid">Rigid</ComboBoxItem>
+                </ComboBox>
+                <ComboBox Name="scaleOut" SelectedIndex="0" Grid.Row="3" Margin="20">
+                    <ComboBoxItem Name="scaleDefault">Scale Out</ComboBoxItem>
+                    <ComboBoxItem Name="manual">Manual</ComboBoxItem>
+                    <ComboBoxItem Name="automatic">Automatic</ComboBoxItem>
+                </ComboBox>
+                <Button x:ConnectionId='2' Name="DBbtn" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Top"                    >Submit</Button>
+            </Grid>
+
+            <Grid Name="MTGrid" Visibility="Collapsed"  Grid.Column="0" Background="#FF636363">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <ComboBox Name="domain" SelectedIndex="0" Grid.Row="0" Margin="20">
+                    <ComboBoxItem Name="domainDefault">Select Domain</ComboBoxItem>
+                    <ComboBoxItem Name="shared">Shared</ComboBoxItem>
+                    <ComboBoxItem Name="dedicated">Dedicated</ComboBoxItem>
+                </ComboBox>
+                <ComboBox Name="deployTime" SelectedIndex="0" Grid.Row="1" Margin="20">
+                    <ComboBoxItem Name="deployDefault">Select Deployment Time</ComboBoxItem>
+                    <ComboBoxItem Name="high">High</ComboBoxItem>
+                    <ComboBoxItem Name="low">Low</ComboBoxItem>
+                </ComboBox>
+                <ComboBox Name="deviceType" SelectedIndex="0" Grid.Row="2" Margin="20">
+                    <ComboBoxItem Name="deviceDefault">Select Platform</ComboBoxItem>
+                    <ComboBoxItem Name="mobile">Mobile</ComboBoxItem>
+                    <ComboBoxItem Name="others">Any</ComboBoxItem>
+                </ComboBox>
+                <Button x:ConnectionId='1' Name="MTbtn" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Top"                    >Submit</Button>
+            </Grid>
+        </Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Azure Recommendation" FontSize="50" VerticalAlignment="Center"/>
+
+    </Grid>
+</Page>
+
